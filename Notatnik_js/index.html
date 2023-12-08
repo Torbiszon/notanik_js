@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Notatnik</h1>
+        <form id="noteForm">
+            <label for="title">Tytuł:</label>
+            <input type="text" id="title" required>
+            <br>
+            <label for="contents">Notatka:</label>
+            <textarea id="contents" rows="4" required></textarea>
+            <br>
+            <label for="color">Kolor:</label>
+            <input type="color" id="color" value="#ffff00">
+            <br>
+            <label for="pin">Przypnij:</label>
+            <input type="checkbox" id="pin">
+            <br>
+            <button type="button" onclick="saveNote()">Zapisz</button>
+        </form>
+        <ul id="noteList" class="note-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

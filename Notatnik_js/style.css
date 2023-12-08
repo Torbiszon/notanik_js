@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.note input[type="color"] {
+    margin-left: 10px;
+}
+
+.pin {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.note-list {
+    list-style-type: none;
+    padding: 0;
+}
